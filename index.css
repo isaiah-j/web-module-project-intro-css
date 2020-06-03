@@ -52,5 +52,16 @@ header nav a {
 }
 
 .more-info {
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+	width: 300px;
+}
+
+.icons {
+	width: 200px;
 }
