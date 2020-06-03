@@ -1,0 +1,56 @@
+* {
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+}
+
+.nav-tags {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+header nav a {
+	color: white;
+	border: 1px solid blue;
+	background-color: blue;
+	padding: 1.5%;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#info {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#info img {
+	width: 500px;
+	border-radius: 50%;
+	display: inline-block;
+}
+#content {
+	margin-left: 30%;
+	width: 800px;
+}
+
+#About {
+	border: 1px salmon solid;
+	background-color: salmon;
+	color: white;
+}
+
+#About p {
+	color: white;
+}
+
+.more-info {
+	margin: 0 auto;
+}
